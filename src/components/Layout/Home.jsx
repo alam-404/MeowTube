@@ -7,12 +7,12 @@ import { Outlet } from 'react-router-dom'
 export default function Home() {
   return (
     <main className=''>
-      <div>
+      <section>
         <Header />
-      </div>
-      <div className='relative left-[14rem] top-[4rem] w-[calc(100%-14rem)]'>
+      </section>
+      <section className='p-5 relative left-[13rem] top-[4rem] w-[calc(100%-14rem)] scroll-smooth'>
         <Outlet />
-      </div>
+      </section>
     </main>
   )
 }

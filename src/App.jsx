@@ -1,18 +1,14 @@
 import { useLoaderData } from "react-router-dom"
+import VideoCard from "./components/VideoCard/VideoCard";
 
 function App() {
   const videoData = JSON.parse(useLoaderData());
   // console.log(videoData)
   return (
     <>
-      <div className="grid grid-cols-3 gap-2">
+      <div className="grid grid-cols-3 gap-3">
         {
-          videoData.map(video => <div key={video.id} className="border rounded p-3 w-[400px]">
-            <div className="">
-            <img src={video.thumbnailUrl}className="w-full" />
-              </div>
-            <h1>{video.title}</h1>
-          </div>)
+          videoData.map(video => <VideoCard key={video.id} video={video} />)
         }
       </div>
     </>
