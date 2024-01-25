@@ -10,7 +10,7 @@ export default function Home() {
       <section>
         <Header />
       </section>
-      <section className='p-5 relative left-[13rem] top-[4rem] w-[calc(100%-14rem)] scroll-smooth'>
+      <section className='p-5 relative left-[13rem] top-[5rem] w-[calc(100%-14rem)] scroll-smooth'>
         <Outlet />
       </section>
     </main>
