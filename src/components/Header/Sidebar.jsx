@@ -59,8 +59,8 @@ const Sidebar = () => {
             <div className=' bottom-0 mx-5 mb-10'>
                 <div className='mb-5'>
                     <ActiveLink to='/settings'>
-                        <div className='flex items-center gap-2 cursor-pointer hover:text-white transition-colors duration-500'>
-                            <Cog6ToothIcon className='w-6 h-6' />
+                        <div className='flex items-center gap-2 cursor-pointer hover:text-white transition-colors duration-500 group'>
+                            <Cog6ToothIcon className='w-6 h-6 group-hover:rotate-90 transition-transform duration-500' />
                             <h1>Settings</h1>
                         </div>
                     </ActiveLink>

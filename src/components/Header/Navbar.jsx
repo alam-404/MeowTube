@@ -10,11 +10,13 @@ const Navbar = () => {
             <div className='flex items-center justify-between mx-7 border-2 rounded-full px-4 w-1/2'>
                 <MagnifyingGlassIcon className='w-6 h-6' />
                 <input type='text' placeholder='Search' className='py-2 px-3 bg-transparent outline-none w-full' />
-                <MicrophoneIcon className='w-6 h-6'/>
+                <div className='w-7 h-7 bg-gray-700 hover:bg-gray-500 p-1 flex items-center justify-center rounded-full'>
+                    <MicrophoneIcon className='w-6 h-6' />
+                </div>
             </div>
             <div>
                 <div className='border-2 rounded-full flex items-center justify-center hover:border-blue-500 transition-colors duration-1000'>
-                    <img src='https://placekitten.com/300/300' className='w-12 h-12 rounded-full'/>
+                    <img src='https://placekitten.com/300/300' className='w-12 h-12 rounded-full cursor-pointer' />
                 </div>
             </div>
         </div>
