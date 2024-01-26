@@ -14,8 +14,8 @@ const Sidebar = () => {
                     </div>
                     <h1 className='text-2xl font-bold'>
                         <Link to='/'>
-                            <span className='text-blue-500 inline'>Meow</span>
-                            <span className='text-white inline'>Tube</span>
+                            <span className='text-white inline'>Meow</span>
+                            <span className=' text-orange-500 inline'>Tube</span>
                         </Link>
                     </h1>
                 </div>

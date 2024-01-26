@@ -1,5 +1,5 @@
 import { useLoaderData } from "react-router-dom"
-import VideoCard from "./components/VideoCard/VideoCard";
+import VideoCard from "./components/Media/VideoCard/VideoCard";
 
 function App() {
   const videoData = JSON.parse(useLoaderData());
